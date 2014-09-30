@@ -1,0 +1,152 @@
+body {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+a:link, a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	color: #FF0000;
+	text-decoration: none;
+}
+.works a:link, .works a:visited {
+	color: #2F4F4F;
+	text-decoration: none;
+}
+.works a:hover {
+	color: #ADD8E6;
+	text-decoration: none;
+}
+a img {
+	border-style:none;
+}
+
+#container {
+	text-align: left;
+	margin: 0px auto;
+	width: 850px;
+}
+#header {
+	margin: 0px 0px 35px 0px;
+}
+#header h1 {
+	font-size: 8pt;
+	font-weight: bold;
+	padding: 0px 0px 0px 5px;
+	margin: 30px 0px 0px 0px;
+}
+#header h2 {
+	padding: 7px 0px 0px 5px;
+	margin: 0px 0px 0px 0px;
+}
+h2 img {
+	padding: 0px 0px 15px 0px;
+}
+#pankuzu {
+	font-size: 80%;
+	margin-bottom: 5px;
+	padding: 0px 0px 0px 10px;
+	font-weight: bold;
+}
+#rt {
+	float: right;
+	text-align: right;
+	margin-bottom: 5px;
+	padding: 0px 10px 0px 0px;
+}
+
+#logo {
+	float: right;
+	text-align: right;
+	padding: 0px 5px 0px 0px;
+}
+#underline {
+	margin-top: 2px;
+	border-top: 2px solid #000000;
+}
+#contents {
+	float: left;
+	width: 690px;
+	height: 1650px;
+	margin-bottom: 10px;
+}
+#contents ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.pics {
+	text-align: left;
+	display: block;
+	padding: 0px 10px;	
+	margin: 0px 10px 50px 35px;
+	width: 150px;
+	height: 275px;
+	float: left;
+}
+.pics img {
+	width: 150px;
+	height: 150px;
+}
+.pics h4 {
+	padding: 0px 0px 5px 0px;
+	margin: 0px;
+	width: 150px;
+	height: 150px;
+}
+.pics p {
+	font-size: 80%;
+	line-height: 1.4;
+	padding: 0px 5px;
+	margin: 3px 0px;
+}
+.name {
+	font-weight: bold;
+	border-bottom: 1px dashed #000000;
+	padding: 0px 5px 7.5px 5px;
+	min-height: 5em;
+}
+
+#sidebar {
+	display: block;
+	float: left;
+	width: 160px;
+}
+#sidebar ul {
+	list-style: none;
+	margin-top: 0px;
+	padding: 0px;
+}
+#sidebar ul li {
+	text-align: left;
+	padding: 0px 0px 10px 10px;
+	margin: 0px 0px 15px 0px;
+}
+
+#pages {
+	clear: both;
+	width: 690px;
+	height: 20px;
+	text-align: center;
+	font-size: 80%;
+	letter-spacing: 0.5em;
+	padding: 0px 10px;
+	margin: 5em 5em;
+}
+
+#footer {
+	clear: both;
+	width: 820px;
+	height: 350px;
+	padding: 0px 15px;
+	margin: 5em 0em 0em 0em;
+	font-size: 50%
+}
+
+.hidden {
+	display: none;
+}
+
