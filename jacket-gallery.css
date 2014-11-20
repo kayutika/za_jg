@@ -150,3 +150,9 @@ h2 img {
 	display: none;
 }
 
+#backtotop {
+	text-align: center;
+	font-size: 70%;
+	margin: 3.5em auto;
+}
+
