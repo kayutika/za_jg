@@ -133,15 +133,14 @@ h2 img {
 	font-size: 80%;
 	letter-spacing: 0.5em;
 	padding: 0px 10px;
-	margin: 5em 5em;
+	margin: 5em 5em 3.5em 5em;
 }
 
 #footer {
 	clear: both;
 	width: 820px;
-	height: 350px;
 	padding: 0px 15px;
-	margin: 5em 0em 0em 0em;
+	margin: 2em 0em 7em 0em;
 	font-size: 50%
 }
 
@@ -152,6 +151,6 @@ h2 img {
 #backtotop {
 	text-align: center;
 	font-size: 8pt;
-	margin: 3.5em auto;
+	margin: 0em auto 8em;
 }
 
