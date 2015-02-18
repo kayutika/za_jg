@@ -9,7 +9,7 @@ a:link, a:visited {
 	text-decoration: none;
 }
 a:hover {
-	color: #FF0000;
+	color:rgba(102,224,222,1.00);
 	text-decoration: none;
 }
 .works a:link, .works a:visited {
@@ -27,7 +27,7 @@ a img {
 #container {
 	text-align: left;
 	margin: 0px auto;
-	width: 850px;
+	width: 930px;
 }
 #header {
 	margin: 0px 0px 35px 0px;
@@ -43,7 +43,7 @@ a img {
 	margin: 0px 0px 0px 0px;
 }
 h2 img {
-	padding: 0px 0px 15px 0px;
+	padding: 0px 0px 30px 0px;
 }
 #pankuzu {
 	font-size: 80%;
@@ -54,17 +54,19 @@ h2 img {
 #rt {
 	float: right;
 	text-align: right;
+	font-size: 80%;
 	margin-bottom: 5px;
-	padding: 0px 10px 0px 0px;
+	padding: 0px 5px 0px 0px;
 }
 
 #logo {
 	float: right;
 	text-align: right;
+	width: 130px;
 	padding: 0px 5px 0px 0px;
 }
 #underline {
-	margin-top: 2px;
+	margin: 2px 0px 50px 0px ;
 	border-top: 2px solid #000000;
 }
 #contents {
@@ -80,39 +82,51 @@ h2 img {
 .pics {
 	text-align: left;
 	display: block;
-	padding: 0px 10px;	
-	margin: 0px 10px 50px 35px;
+	padding: 0px 40px;	
+	margin: 0px 0px 50px 0px;
 	width: 150px;
-	height: 275px;
+	height: 300px;
 	float: left;
 }
-.pics img {
-	width: 150px;
-	height: 150px;
-}
 .pics h4 {
-	padding: 0px 0px 5px 0px;
+	padding: 0px 0px 15px 0px;
 	margin: 0px;
 	width: 150px;
 	height: 150px;
 }
+
+.pics img {
+	border: 2px solid rgba(232,232,232,1.00);
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
 .pics p {
 	font-size: 80%;
 	line-height: 1.4;
-	padding: 0px 5px;
-	margin: 3px 0px;
+	margin: 5px 0px 3px 0px;
 }
 .name {
 	font-weight: bold;
-	border-bottom: 1px dashed #000000;
-	padding: 0px 5px 7.5px 5px;
-	min-height: 5em;
+	padding: 5px 10px 15px 10px;
+	min-height: 4em;
+}
+.date {
+	font-size: 70%;
+	padding: 5px 0px 0px 10px;
+	border-top: 2px solid rgba(232,232,232,1.00);
+}
+
+#loading {
+	text-align: center;
+	margin: 200px 0;
 }
 
 #sidebar {
 	display: block;
 	float: left;
-	width: 160px;
+	padding-left: 30px;
+	width: 210px;
 }
 #sidebar ul {
 	list-style: none;
@@ -121,36 +135,49 @@ h2 img {
 }
 #sidebar ul li {
 	text-align: left;
-	padding: 0px 0px 10px 10px;
-	margin: 0px 0px 15px 0px;
+	padding: 0px 0px 15px 10px;
+	margin: 10px 0px 15px 0px;
 }
 
 #pages {
 	clear: both;
-	width: 690px;
+	width: 930px;
 	height: 20px;
-	text-align: center;
+	text-align: left;
 	font-size: 80%;
-	letter-spacing: 0.5em;
-	padding: 0px 10px;
-	margin: 5em 5em 3.5em 5em;
+	padding: 0px;
+	margin: 0px auto;
+}
+
+#pages ul {
+	width: 690px;
+	text-align: center;
+	padding: 20px 0px;
+	margin: 20px 240px 30px auto;
+}
+#pages li {
+	display:inline;
+	margin:0px 15px;
 }
 
 #footer {
 	clear: both;
-	width: 820px;
-	padding: 0px 15px;
-	margin: 2em 0em 7em 0em;
-	font-size: 50%
+	width: 930px;
+	margin: 10px 240px 30px auto;
+	font-size: 50%;
 }
-
 .hidden {
 	display: none;
 }
 
 #backtotop {
+	width: 690px;
 	text-align: center;
-	font-size: 8pt;
-	margin: 0em auto 8em;
+	padding: 40px 0px 0px 0px;
+	margin: 0px 230px 100px 0px;
+}
+.notfound {
+	text-align: center;
+	margin-top:250px;
 }
 

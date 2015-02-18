@@ -22,19 +22,21 @@
 
 </script>
 <script src="js/jquery-1.10.2.min.js"></script>
-<script src="js/jquery.socialbutton-1.9.0.min.js"></script>
+<script src="js/jquery.ba-hashchange.min.js"></script>
 <script src="js/lightbox-2.6.min.js"></script>
 <link href="css/lightbox.css" rel="stylesheet" />
 
-<script>
-	$(function() {
-    $('.tw_btn').socialbutton('twitter');
-    $('.fb_btn').socialbutton('facebook_like');
-    $('.hb_btn').socialbutton('hatena');
-	});
-	</script>
 </head>
 <body>
+<!-- fb -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <!-- container S -->
 	<div id="container">
 		<!-- header S -->
@@ -42,7 +44,7 @@
 		<h1>
 		ザザザワークスで制作させていただいた作品群…観て、感じて、もう、紙ジャケワールドの虜。</h1>
 		<h2>
-		<img src="img/layout/header-gallery.png">
+		<a href="http://zazazaworks.jp/jacket_gallery/"><img src="img/layout/header-gallery.png"></a>
 		</h2>
 		<h2 id="pankuzu">紙ジャケットギャラリー<a href="http://zazazaworks.jp/"><span id="rt">ショップへ戻る</span></a><img id="logo" src="img/layout/logo.png"></h2>
 		<p id="underline"></p>
@@ -50,275 +52,42 @@
 		<!-- header E -->
 		<!-- contents S-->
 		<div id="contents">
-		<ul class="works">
-
-
-		<li class="pics">
-		<h4><a href="img/kamijake/htm_f.jpg" rel="lightbox[085]" title="走る、止まる、見つめる。 / Quietly Excited Penguin<br>スタンダードジャケット<br>アートポスト220kg"><img src="img/kamijake/htm_f.jpg" alt="走る、止まる、見つめる。 / Quietly Excited Penguin"></a><a href="img/kamijake/htm_b.jpg" rel="lightbox[085]" title="走る、止まる、見つめる。 / Quietly Excited Penguin<br>スタンダードジャケット<br>アートポスト220kg"></a></h4>
-		<p class="name">走る、止まる、見つめる。 / Quietly Excited Penguin<br>
-		</p>
-		<p>2015.02.13.up.</p>
-		</li>
-
-		
-		<li class="pics">
-		<h4><a href="img/kamijake/hoshinotane_f.jpg" rel="lightbox[084]" title="ほしのたね / meeco<br>見開きジャケット<br>アートポスト220kg"><img src="img/kamijake/hoshinotane_f.jpg" alt="ほしのたね / meeco"></a><a href="img/kamijake/hoshinotane_b.jpg" rel="lightbox[084]" title="ほしのたね / meeco<br>見開きジャケット<br>アートポスト220kg"></a></h4>
-		<p class="name">ほしのたね / meeco<br>
-		</p>
-		<p>2015.02.06.up.</p>
-		</li>
-
-		
-		<li class="pics">
-		<h4><a href="img/kamijake/iki_f.jpg" rel="lightbox[082]" title="粋 / 坂上松竹<br>見開きジャケット<br>アートポスト220kg"><img src="img/kamijake/iki_f.jpg" alt="粋 / 坂上松竹"></a><a href="img/kamijake/iki_b.jpg" rel="lightbox[082]" title="粋 / 坂上松竹<br>見開きジャケット<br>アートポスト220kg"></a></h4>
-		<p class="name">粋 / 坂上松竹<br>
-		</p>
-		<p>2015.01.31.up.</p>
-		</li>
-
-		<li class="pics">
-		<h4><a href="img/kamijake/nomotionpinks_f.jpg" rel="lightbox[083]" title="No Motion Pinks<br>スタンダードジャケット<br>アートポスト220kg"><img src="img/kamijake/nomotionpinks_f.jpg" alt="No Motion Pinks"></a><a href="img/kamijake/nomotionpinks_b.jpg" rel="lightbox[083]" title="No Motion Pinks<br>スタンダードジャケット<br>アートポスト220kg"></a></h4>
-		<p class="name">No Motion Pinks<br>
-		</p>
-		<p>2015.01.31.up.</p>
-		</li>
-
-
-		<li class="pics">
-		<h4><a href="img/kamijake/lightsandshadows_f.jpg" rel="lightbox[081]" title="LIGHTS AND SHADOWS / The Astoria<br>スタンダードジャケット<br>アートポスト220kg"><img src="img/kamijake/lightsandshadows_f.jpg" alt="LIGHTS AND SHADOWS / The Astoria"></a><a href="img/kamijake/lightsandshadows_b.jpg" rel="lightbox[081]" title="LIGHTS AND SHADOWS / The Astoria<br>スタンダードジャケット<br>アートポスト220kg"></a></h4>
-		<p class="name">LIGHTS AND SHADOWS / The Astoria<br>
-		</p>
-		<p>2015.01.22.up.</p>
-		</li>
-
-
-		<li class="pics">
-		<h4><a href="img/kamijake/moyayu_f.jpg" rel="lightbox[080]" title="もやゆう / 夕も屋<br>スタンダードジャケット<br>アラベールナチュラル200kg"><img src="img/kamijake/moyayu_f.jpg" alt="もやゆう / 夕も屋"></a><a href="img/kamijake/moyayu_b.jpg" rel="lightbox[080]" title="もやゆう / 夕も屋<br>スタンダードジャケット<br>アラベールナチュラル200kg"></a></h4>
-		<p class="name">もやゆう / 夕も屋<br>
-		</p>
-		<p>2015.01.17.up.</p>
-		</li>
-
-
-		<li class="pics">
-		<h4><a href="img/kamijake/azalee_f.jpg" rel="lightbox[079]" title="アザリー中毒 / 戯言あざり<br>スタンダードジャケット<br>アートポスト220kg"><img src="img/kamijake/azalee_f.jpg" alt="アザリー中毒 / 戯言あざり"></a><a href="img/kamijake/azalee_b.jpg" rel="lightbox[079]" title="アザリー中毒 / 戯言あざり<br>スタンダードジャケット<br>アートポスト220kg"></a></h4>
-		<p class="name">アザリー中毒 / 戯言あざり<br>
-		</p>
-		<p>2015.01.06.up.</p>
-		</li>
-
-		<li class="pics">
-		<h4><a href="img/kamijake/whitedrops_f.jpg" rel="lightbox[078]" title="White Drops<br>スタンダードジャケット<br>アートポスト220kg"><img src="img/kamijake/whitedrops_f.jpg" alt="White Drops"></a><a href="img/kamijake/whitedrops_b.jpg" rel="lightbox[078]" title="White Drops<br>スタンダードジャケット<br>アートポスト220kg"></a></h4>
-		<p class="name">White Drops<br>
-		</p>
-		<p>2015.01.06.up.</p>
-		</li>
-
-		<li class="pics">
-		<h4><a href="img/kamijake/alquran_f.jpg" rel="lightbox[077]" title="Al=Quran<br>見開きジャケット<br>モダンクラフト230kg"><img src="img/kamijake/alquran_f.jpg" alt="Al=Quran"></a><a href="img/kamijake/alquran_b.jpg" rel="lightbox[077]" title="Al=Quran<br>見開きジャケット<br>モダンクラフト230kg"></a></h4>
-		<p class="name">Al=Quran<br>
-		</p>
-		<p>2015.01.06.up.</p>
-		</li>
-
-		<li class="pics">
-		<h4><a href="img/kamijake/bloodofhyaena_f.jpg" rel="lightbox[076]" title="Blood Of Hyaena / Hyaenacutie<br>スタンダードジャケット<br>アラベールナチュラル200kg"><img src="img/kamijake/bloodofhyaena_f.jpg" alt="Blood Of Hyaena / Hyaenacutie"></a><a href="img/kamijake/bloodofhyaena_b.jpg" rel="lightbox[076]" title="Blood Of Hyaena / Hyaenacutie<br>スタンダードジャケット<br>アラベールナチュラル200kg"></a></h4>
-		<p class="name">Blood Of Hyaena / Hyaenacutie<br>
-		</p>
-		<p>2015.01.06.up.</p>
-		</li>
-
-
-		<li class="pics">
-		<h4><a href="img/kamijake/squareone_f.jpg" rel="lightbox[075]" title="SQUARE ONE / V.A<br>見開きジャケット<br>アートポスト220kg"><img src="img/kamijake/squareone_f.jpg" alt="SQUARE ONE / V.A"></a><a href="img/kamijake/squareone_b.jpg" rel="lightbox[075]" title="SQUARE ONE / V.A<br>見開きジャケット<br>アートポスト220kg"></a></h4>
-		<p class="name">SQUARE ONE / V.A<a href="http://731records.info/releaseSite/731RVA/731RVA.html" target="_blank">[HP]</a><br>
-		(Artwork: RiVAQ<a href="http://rivaq-msyk.tumblr.com/" target="_blank">[HP]</a>)
-		</p>
-		<p>2014.12.26.up.</p>
-		</li>
-
-
-		<li class="pics">
-		<h4><a href="img/kamijake/ningenkokuhou_f.jpg" rel="lightbox[074]" title="人間国宝 / 国宝太郎<br>スタンダードジャケット<br>アートポスト220kg"><img src="img/kamijake/ningenkokuhou_f.jpg" alt="人間国宝 / 国宝太郎"></a><a href="img/kamijake/ningenkokuhou_b.jpg" rel="lightbox[074]" title="人間国宝 / 国宝太郎<br>スタンダードジャケット<br>アートポスト220kg"></a></h4>
-		<p class="name">人間国宝 / 国宝太郎<br>
-		</p>
-		<p>2014.12.16.up.</p>
-		</li>
-
-
-		<li class="pics">
-		<h4><a href="img/kamijake/roadtocross_f.jpg" rel="lightbox[073]" title="Road to cross -友よ、また逢おう- / THE FAZE<br>見開きジャケット<br>アートポスト220kg"><img src="img/kamijake/roadtocross_f.jpg" alt="Road to cross -友よ、また逢おう- / THE FAZE"></a><a href="img/kamijake/roadtocross_b.jpg" rel="lightbox[073]" title="Road to cross -友よ、また逢おう- / THE FAZE<br>見開きジャケット<br>アートポスト220kg"></a></h4>
-		<p class="name">Road to cross -友よ、また逢おう- / THE FAZE<br>
-		</p>
-		<p>2014.12.03.up.</p>
-		</li>
-		
-
-
-		<li class="pics">
-		<h4><a href="img/kamijake/metropolitan_f.jpg" rel="lightbox[072]" title="METROPOLITAN / TOMATO JAMMY<br>スタンダードジャケット<br>アラベールナチュラル200kg"><img src="img/kamijake/metropolitan_f.jpg" alt="METROPOLITAN / TOMATO JAMMY"></a><a href="img/kamijake/metropolitan_b.jpg" rel="lightbox[072]" title="METROPOLITAN / TOMATO JAMMY<br>スタンダードジャケット<br>アラベールナチュラル200kg"></a></h4>
-		<p class="name">METROPOLITAN / TOMATO JAMMY<br>
-		</p>
-		<p>2014.11.27.up.</p>
-		</li>
-
-		<li class="pics">
-		<h4><a href="img/kamijake/synaps_f.jpg" rel="lightbox[071]" title="SYNAPS / flari<br>スタンダードジャケット<br>アートポスト220kg"><img src="img/kamijake/synaps_f.jpg" alt="SYNAPS / flari"></a><a href="img/kamijake/synaps_b.jpg" rel="lightbox[071]" title="SYNAPS / flari<br>スタンダードジャケット<br>アートポスト220kg"></a></h4>
-		<p class="name">SYNAPS / flari<br>
-		</p>
-		<p>2014.11.21.up.</p>
-		</li>
-
-		<li class="pics">
-		<h4><a href="img/kamijake/zoo_f.jpg" rel="lightbox[070]" title="ゼツメツ動物園-ノアの方舟-<br>見開きジャケット<br>アラベールナチュラル200kg"><img src="img/kamijake/zoo_f.jpg" alt="ゼツメツ動物園-ノアの方舟-"></a><a href="img/kamijake/zoo_b.jpg" rel="lightbox[070]" title="ゼツメツ動物園-ノアの方舟-<br>見開きジャケット<br>アラベールナチュラル200kg"></a></h4>
-		<p class="name">ゼツメツ動物園-ノアの方舟-<br>
-		</p>
-		<p>2014.11.21.up.</p>
-		</li>
-
-		<li class="pics">
-		<h4><a href="img/kamijake/summer_f.jpg" rel="lightbox[069]" title="夏が好きです。 / 宮田サトシ<br>見開きジャケット<br>アラベールスノーホワイト200kg"><img src="img/kamijake/summer_f.jpg" alt="夏が好きです。 / 宮田サトシ"></a><a href="img/kamijake/summer_b.jpg" rel="lightbox[069]" title="夏が好きです。 / 宮田サトシ<br>見開きジャケット<br>アラベールスノーホワイト200kg"></a></h4>
-		<p class="name">夏が好きです。 / 宮田サトシ<br>
-		</p>
-		<p>2014.11.21.up.</p>
-		</li>
-
-		<li class="pics">
-		<h4><a href="img/kamijake/eve_f.jpg" rel="lightbox[068]" title="Eve. / Sugou Mai<br>見開きジャケット<br>アートポスト220kg"><img src="img/kamijake/eve_f.jpg" alt="Eve. / Sugou Mai"></a><a href="img/kamijake/eve_b.jpg" rel="lightbox[068]" title="Eve. / Sugou Mai<br>見開きジャケット<br>アートポスト220kg"></a></h4>
-		<p class="name">Eve. / Sugou Mai<a href="https://soundcloud.com/sugou-mai/" target="_blank">[HP]</a><br>
-		</p>
-		<p>2014.11.21.up.</p>
-		</li>
-
-		<li class="pics">
-		<h4><a href="img/kamijake/misosoup_f.jpg" rel="lightbox[067]" title="DIVE INTO THE MISO SOUP / ハイアラーキーズ<br>見開きジャケット<br>アートポスト220kg"><img src="img/kamijake/misosoup_f.jpg" alt="DIVE INTO THE MISO SOUP / ハイアラーキーズ"></a><a href="img/kamijake/misosoup_b.jpg" rel="lightbox[067]" title="DIVE INTO THE MISO SOUP / ハイアラーキーズ<br>見開きジャケット<br>アートポスト220kg"></a></h4>
-		<p class="name">DIVE INTO THE MISO SOUP / ハイアラーキーズ<br>
-		</p>
-		<p>2014.11.21.up.</p>
-		</li>
-
-
-
-		<li class="pics">
-		<h4><a href="img/kamijake/platonic_f.jpg" rel="lightbox[066]" title="platonic / 小島ユウスケ<br>スタンダードジャケット<br>アートポスト220kg"><img src="img/kamijake/platonic_f.jpg" alt="platonic / 小島ユウスケ"></a><a href="img/kamijake/platonic_b.jpg" rel="lightbox[066]" title="platonic / 小島ユウスケ<br>スタンダードジャケット<br>アートポスト220kg"></a></h4>
-		<p class="name">platonic / 小島ユウスケ<br>
-		</p>
-		<p>2014.10.22.up.</p>
-		</li>
-
-
-
-		<li class="pics">
-		<h4><a href="img/kamijake/nightsenses_f.jpg" rel="lightbox[065]" title="NIGHTSENSES / R-9<br>スタンダードジャケット<br>アートポスト220kg"><img src="img/kamijake/nightsenses_f.jpg" alt="NIGHTSENSES / R-9"></a><a href="img/kamijake/nightsenses_b.jpg" rel="lightbox[065]" title="NIGHTSENSES / R-9<br>スタンダードジャケット<br>アートポスト220kg"></a></h4>
-		<p class="name">NIGHTSENSES / R-9<br>
-		</p>
-		<p>2014.10.14.up.</p>
-		</li>
-
-
-		<li class="pics">
-		<h4><a href="img/kamijake/antiqueaxis_f.jpg" rel="lightbox[063]" title="Antique Axis -日記篇-<br>スタンダードジャケット<br>アートポスト220kg"><img src="img/kamijake/antiqueaxis_f.jpg" alt="Antique Axis -日記篇-"></a><a href="img/kamijake/antiqueaxis_b.jpg" rel="lightbox[063]" title="Antique Axis -日記篇-<br>スタンダードジャケット<br>アートポスト220kg"></a></h4>
-		<p class="name">Antique Axis -日記篇-<br>
-		</p>
-		<p>2014.09.08.up.</p>
-		</li>
-		
-		<li class="pics">
-		<h4><a href="img/kamijake/goodbye_f.jpg" rel="lightbox[064]" title="Goodbye -エンドロールは終わらない- / Sarahanna<br>見開きジャケット<br>アートポスト220kg"><img src="img/kamijake/goodbye_f.jpg" alt="Goodbye -エンドロールは終わらない- / Sarahanna"></a></h4>
-		<p class="name">Goodbye -エンドロールは終わらない- / Sarahanna<a href="http://sara-hanna.com/" target="_blank">[HP]</a><br>
-		</p>
-		<p>2014.09.08.up.</p>
-		</li>
-		
-		
-		<li class="pics">
-		<h4><a href="img/kamijake/mousoutokkyu_f.jpg" rel="lightbox[062]" title="妄想特急 / スペース・トラブラーズ<br>見開きジャケット<br>アートポスト220kg"><img src="img/kamijake/mousoutokkyu_f.jpg" alt="妄想特急 / スペース・トラブラーズ"></a><a href="img/kamijake/mousoutokkyu_b.jpg" rel="lightbox[062]" title="妄想特急 / スペース・トラブラーズ<br>見開きジャケット<br>アートポスト220kg"></a></h4>
-		<p class="name">妄想特急 / スペース・トラブラーズ<br>
-		</p>
-		<p>2014.09.03.up.</p>
-		</li>
-		
-		
-		
-		<li class="pics">
-		<h4><a href="img/kamijake/espresso_f.jpg" rel="lightbox[061]" title="エスプレッソのような恋/博士  / カーテンズ<br>スタンダードジャケット<br>アートポスト220kg"><img src="img/kamijake/espresso_f.jpg" alt="エスプレッソのような恋/博士  / カーテンズ"></a><a href="img/kamijake/espresso_b.jpg" rel="lightbox[061]" title="エスプレッソのような恋/博士  / カーテンズ<br>スタンダードジャケット<br>アートポスト220kg"></a></h4>
-		<p class="name">エスプレッソのような恋/博士  / カーテンズ<br>
-		</p>
-		<p>2014.09.03.up.</p>
-		</li>
-
-		
-				<li class="pics">
-		<h4><a href="img/kamijake/quon4table-A_f.jpg" rel="lightbox[058]" title="KENJI YAMAMOTO&quot;Seasonal Pro.Album one&quot; / 「QUON 4 TABLE」<br>見開きジャケット<br>アートポスト220kg"><img src="img/kamijake/quon4table-A_f.jpg" alt="KENJI YAMAMOTO&quot;Seasonal Pro.Album one&quot; / 「QUON 4 TABLE」"></a><a href="img/kamijake/quon4table-A_b.jpg" rel="lightbox[058]" title="KENJI YAMAMOTO&quot;Seasonal Pro.Album one&quot; / 「QUON 4 TABLE」<br>見開きジャケット<br>アートポスト220kg"></a></h4>
-		<p class="name"><span style="font-size: 70%;">KENJI YAMAMOTO&quot;Seasonal Pro.Album one&quot; / 「QUON 4 TABLE」</span><br>
-		</p>
-		<p>2014.08.27.up.</p>
-		</li>
-		
-
-		<li class="pics">
-		<h4><a href="img/kamijake/quon4table-B_f.jpg" rel="lightbox[059]" title="KENJI YAMAMOTO&quot;Seasonal Pro.Album one&quot; / 「QUON 4 TABLE」<br>見開きジャケット<br>アートポスト220kg"><img src="img/kamijake/quon4table-B_f.jpg" alt="KENJI YAMAMOTO&quot;Seasonal Pro.Album one&quot; / 「QUON 4 TABLE」"></a><a href="img/kamijake/quon4table-B_b.jpg" rel="lightbox[059]" title="KENJI YAMAMOTO&quot;Seasonal Pro.Album one&quot; / 「QUON 4 TABLE」<br>見開きジャケット<br>アートポスト220kg"></a></h4>
-		<p class="name"><span style="font-size: 70%;">KENJI YAMAMOTO&quot;Seasonal Pro.Album one&quot; / 「QUON 4 TABLE」</span><br>
-		</p>
-		<p>2014.08.27.up.</p>
-		</li>
-
-
-		<li class="pics">
-		<h4><a href="img/kamijake/superpotato_f.jpg" rel="lightbox[060]" title="スーパーポテト / ひのきのぼう<br>スタンダードジャケット<br>ミラーコートプラチナ220kg"><img src="img/kamijake/superpotato_f.jpg" alt="スーパーポテト / ひのきのぼう"></a><a href="img/kamijake/superpotato_b.jpg" rel="lightbox[060]" title="スーパーポテト / ひのきのぼう<br>スタンダードジャケット<br>ミラーコートプラチナ220kg"></a></h4>
-		<p class="name">スーパーポテト / ひのきのぼう<br>
-		</p>
-		<p>2014.08.27.up.</p>
-		</li>
-
-		
-		<li class="pics">
-		<h4><a href="img/kamijake/modoronokuni_f.jpg" rel="lightbox[057]" title="もどろの国 / エーモンマダラ<br>スタンダードジャケット<br>アートポスト220kg"><img src="img/kamijake/modoronokuni_f.jpg" alt="もどろの国 / エーモンマダラ"></a><a href="img/kamijake/modoronokuni_b.jpg" rel="lightbox[057]" title="もどろの国 / エーモンマダラ<br>スタンダードジャケット<br>アートポスト220kg"></a></h4>
-		<p class="name">もどろの国 / エーモンマダラ<br>
-		</p>
-		<p>2014.08.05.up.</p>
-		</li>
-
-
-		<li class="pics">
-		<h4><a href="img/kamijake/whaleworld_f.jpg" rel="lightbox[056]" title="WhaleWorld / WhaleBeats<br>スタンダードジャケット<br>アートポスト220kg"><img src="img/kamijake/whaleworld_f.jpg" alt="WhaleWorld / WhaleBeats"></a><a href="img/kamijake/whaleworld_b.jpg" rel="lightbox[056]" title="WhaleWorld / WhaleBeats<br>スタンダードジャケット<br>アートポスト220kg"></a></h4>
-		<p class="name">WhaleWorld / WhaleBeats<br>
-		</p>
-		<p>2014.07.24.up.</p>
-		</li>
-		
-
-		</ul>
+        <div id="works" class="works">
+        <p id="loading"><img src="img/loading.gif" width="32" height="32" alt="Now Loading"></p>
+        </div>
 		</div>
 		<!-- contents E-->
 		<!-- sidebar S-->
 		<div id="sidebar">
 		<ul>
 		<li>
-		<a target="_blank" href="http://zazazaworks.jp/"><img src="img/layout/sidebar-top.png">
+		<a href="http://zazazaworks.jp/" target="_blank"><img src="img/layout/sidebar-top.png"></a>
 		</li>
 		<li>
-		<a target="_blank" href="http://d.hatena.ne.jp/ye-ll+zazazaworks/"><img src="img/layout/sidebar-blog.png"></a>
+		<a target="_blank" href="http://zazazaworks.jp/blog/"><img src="img/layout/sidebar-blog.png"></a>
 		</li>
 		<li>
-		<a class="twitter-timeline"  href="https://twitter.com/zazazaworks"  data-widget-id="364329338780397570">@zazazaworks からのツイート</a>
+		<a class="twitter-timeline"  width="180" height="400" href="https://twitter.com/zazazaworks"  data-chrome="transparent" data-widget-id="364329338780397570">@zazazaworks からのツイート</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 		</li>
 		<li>
-		<div class="tw_btn"></div>
-		<div class="fb_btn"></div>
-		<div class="hb_btn"></div>
-		<div id="fb-root"></div>
+        <p>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://zazazaworks.jp/jacket_gallery/">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
+        <p>
+	<div class="fb-like" data-href="http://zazazaworks.jp/jacket_gallery/" data-width="150" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></p>
+        <p>
+        <a href="http://b.hatena.ne.jp/entry/http://zazazaworks.jp/jacket_gallery/" class="hatena-bookmark-button" data-hatena-bookmark-title="紙ジャケットギャラリー / ZaZaZaWORKS" data-hatena-bookmark-layout="simple-balloon" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+        </p>
 		</li>
 		</ul>
 		</div>
 
 		<!-- sidebar E-->
 		<div id="pages">
-		<p>&lt;&lt;&nbsp;&lt;&emsp;1&ensp;<a href="p002.html">2&ensp;</a><a href="p003.html">3&ensp;</a>&ensp;<a href="p002.html">&gt;</a>&emsp;<a href="p003.html">&gt;&gt;</a></p></div>
+		<ul><li><a href="javascript:void(0)"></a>&laquo;&ensp;prev</li><li><a href="javascript:void(0)">next&ensp;&raquo;</a></li></ul></div>
 		<!-- footer S-->
 		<div id="footer">
-		<p id="backtotop"><a href="http://zazazaworks.jp/"><img src="img/layout/backtotop.png" alt="ZaZaZaWORKSトップページへ戻る"></a></a></p>
+		<p id="backtotop"><a href="http://zazazaworks.jp/"><img src="img/layout/backtotop.png" alt="ZaZaZaWORKSトップページへ戻る"></a></p>
 	<p>ザザザワークスの紙ジャケットギャラリーについて</p>
 	<p>ギャラリーは、ザザザワークスをご利用頂きましたお客様の作品を、許諾のもと、掲載しております。画像の無断転用はご遠慮ください。<br>
 	掲載については下記のことが原則となります。</p>
@@ -341,5 +110,6 @@
 		<!-- footer E-->
 	</div>
 <!-- container E -->
+<script type="text/javascript" src="js/works.js"></script>
 </body>
 </html>
