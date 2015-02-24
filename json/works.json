@@ -1,5 +1,25 @@
 [
 {
+	"id": "079",
+	"date" : "2015.02.24",
+	"image": "ep2_f.jpg",
+	"title": "EP 2",
+	"artist": "THE RUEE",
+	"url": null,
+	"product": "スタンダードジャケット",
+	"paper": "アートポスト220kg"
+},
+{
+	"id": "078",
+	"date" : "2015.02.24",
+	"image": "odore_f.jpg",
+	"title": "踊れ、人格者",
+	"artist": "the バーダック",
+	"url": null,
+	"product": "スタンダードジャケット",
+	"paper": "ミラーコートプラチナ220kg"
+},
+{
 	"id": "077",
 	"date" : "2015.02.19",
 	"image": "mondaymorning_f.jpg",
